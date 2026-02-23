@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    }
+    .lado-esquerdo, .lado-direito {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    }
+    .secao-normal {
+    margin: 50px;
+    text-align: center;
+    }
+    body{
+        background-color: rgb(31, 134, 31);
+    }
+    h1{
+        font-size: 200px;
+        color: rgb(170, 206, 170);
+
+    }
+    h2{
+        font-size: 45px;
+        color: rgb(187, 241, 187);
+    }
+    h3{
+        font-size: 30px;
+        color: rgb(33, 73, 33);
+    }
